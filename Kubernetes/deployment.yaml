@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: prime-app
-        image: deeptidke2919/amazon-prime:latest
+        image: deeptidke2919/amazon-prime
         ports:
         - containerPort: 3000
