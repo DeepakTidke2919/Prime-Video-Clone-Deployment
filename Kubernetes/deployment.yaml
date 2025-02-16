@@ -5,7 +5,7 @@ metadata:
   labels:
     app: prime-app
 spec:
-  replicas: 4
+  replicas: 10
   selector:
     matchLabels:
       app: prime-app
@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: prime-app
-        image: deeptidke2919/background-remover-python-app5
+        image: deeptidke2919/amazon-prime
         ports:
         - containerPort: 3000
