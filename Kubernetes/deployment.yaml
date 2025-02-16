@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: prime-app
-        image: deeptidke2919/starbucks
+        image: deeptidke2919/background-remover-python-app5
         ports:
         - containerPort: 3000
